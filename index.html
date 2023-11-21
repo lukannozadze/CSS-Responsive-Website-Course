@@ -12,6 +12,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -139,9 +143,56 @@
           </div>
         </div>
       </section>
-      <section class="carousel padding-block-700">
+      <section class="carousel padding-block-700 text-center">
         <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
         <!-- Carousel here -->
+        <ul class="slider">
+          <li>
+            <img src="images/avatar-anisha.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Anisha Li</h3>
+              <p data-width="wide">
+                "We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-ali.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Ali Bravo</h3>
+              <p data-width="wide">
+                "We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-richard.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Richard Watts</h3>
+              <p data-width="wide">
+                "We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="images/avatar-shanai.png" alt="" />
+            <div class="slider-content | flow" style="--flow-spacer: 1rem">
+              <h3 class="fw-bold">Shanai</h3>
+              <p data-width="wide">
+                "We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </li>
+        </ul>
+
         <button class="button">Get Started</button>
       </section>
       <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
@@ -241,6 +292,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
